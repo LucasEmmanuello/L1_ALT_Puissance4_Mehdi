@@ -1,3 +1,50 @@
+.body{
+    background-color: #0F0F2E;
+    color:#fff;
+}
+
+.head{
+    display: flex;
+    flex:row;
+    justify-content: space-around;
+}
+
+.banner {
+    background-size: auto;
+    background-position: center;
+}
+
+.nav-header{
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-header :hover{
+    color: #EC9024;
+}
+
+.position{
+    color: #EC9024;
+    padding: 13px;
+    border-top: 2px inset #EC9024;
+    background:none;
+    text-decoration: none;
+}
+
+.nav-link{
+    color:#fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px;
+}
+
+.nav-header > li{
+    display: inline-block;
+}
+  
+
 .footer{
     display: flex;
     position: absolute;
