@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    background-color: #0F0F2E;
+} 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-general{
+    background-color: #272645;
+    border: none;
+    outline: none;
+    padding: 12.5px 150px 12.5px 10px;
+    border-radius: 3.5px;
+}
+
+.input-password{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.form ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-input{
+    background-color: #EC9024;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    outline: none;
+    border-radius: 3.5px;
+    color: white;
+}
+
+.submit-li{
+    align-self: center;
+}
+/* .input-general:focus-visible{
+} */
