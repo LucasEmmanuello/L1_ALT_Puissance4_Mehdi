@@ -85,6 +85,9 @@
     flex-direction: column;
     align-items: center;
 }
+.top3 img{
+    width: 25%;
+}
 
 .reublctop3{
     display: flex;
