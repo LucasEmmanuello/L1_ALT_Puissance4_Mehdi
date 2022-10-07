@@ -9,6 +9,12 @@
     justify-content: space-around;
 }
 
+.head-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .banner {
     background-size:cover;
     background-position: center;
