@@ -1,3 +1,12 @@
+<!-- <?php
+    require 'includes/database.php';
+
+    $test = $dbh->prepare('SELECT * FROM user WHERE email = :email');
+    $test->execute(['emain' => "mbourouih94@gmail.com"]);
+	$test = $test->fetch();
+    echo $test
+
+?> -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,6 +16,7 @@
     <link rel="stylesheet" href="../assets/css/login.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/misenpage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
