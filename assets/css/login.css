@@ -49,6 +49,12 @@ form{
     align-self: center;
 }
 
+.input-msg{
+    height: 200px;
+    width: 500px;
+    padding-right: 10px;
+}
+
 .input-general::placeholder{
     color: rgb(152, 152, 152);
 }
