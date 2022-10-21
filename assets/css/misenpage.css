@@ -9,6 +9,13 @@ body{
     justify-content: space-around;
 }
 
+.head-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
 .banner {
     background-size:cover;
     background-position: center;
@@ -22,10 +29,6 @@ body{
 
 .nav-header :hover{
     color: #EC9024;
-}
-
-.welcome{
-    padding-top: 5%;
 }
 
 .position{
@@ -113,3 +116,4 @@ i{
 #copyrigth{
     margin-top: 100px;
 }
+
