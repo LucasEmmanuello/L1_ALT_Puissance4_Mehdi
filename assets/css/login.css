@@ -44,6 +44,7 @@ form{
     border: none;
     outline: none;
     border-radius: 3.5px;
+    cursor: pointer;
     color: #fff;
 }
 
