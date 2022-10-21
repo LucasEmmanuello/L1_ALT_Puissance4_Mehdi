@@ -45,6 +45,7 @@ form{
     outline: none;
     border-radius: 3.5px;
     color: white;
+    cursor: pointer;
 }
 
 .submit-li{
