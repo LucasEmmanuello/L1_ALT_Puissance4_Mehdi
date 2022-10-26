@@ -1,3 +1,9 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .button {
     color: #fff;
     border: 1px solid #EC9024;
@@ -38,6 +44,8 @@
 
 .statbloc{
     display: flex;
+    justify-content: space-evenly;
+
 }
 .blocstat{
     display: flex;
@@ -84,48 +92,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.top3 img{
-    width: 25%;
-}
-
-.reublctop3{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
-
-.blctop3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 25px;
-    margin: 10px;
-    width: 275px;
-    height: 300px;
-    background-color:#0D0A26;
-}
-
-.img{
-    display: flex;
-}
-
-.blctop3 img{
-    width: 45%;
-    border-radius: 100px;
-    background-color: #fff;
-    margin: 25px;
-}
-
-.ssimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-}
-
-.ssimg h3{
-    margin: 0;
 }
