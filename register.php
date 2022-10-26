@@ -94,14 +94,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/login.css">
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/misenpage.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>S'inscrire</title>
+    <?php require "assets/view/head.inc.php" ?>
 </head>
 <body>
 <?php
@@ -115,7 +108,7 @@
                     <li><input type="text" name="pseudo" id="pseudo" class="input-general input-pseudo" placeholder="Pseudo" required></li>
                     <li><input type="password" name="password" id="password" class="input-general input-password" placeholder="Mot de Passe" style="margin-bottom: 0;" required></li>
                     <li><input type="password" name="password_repeat" id="password_repeat" class="input-general input-password" placeholder="Répeter le Mot de Passe" required></li>
-                    <li class="submit-li"><input type="submit" value="S'inscrire" class="submit-input"></li>
+                    <li>Vous avez déjà un compte cliquez <a href="/login" style="color: #EC9024;">ICI</a></li>                    <li class="submit-li"><input type="submit" value="S'inscrire" class="submit-input"></li>
             </ul>
         </form>
     </div>

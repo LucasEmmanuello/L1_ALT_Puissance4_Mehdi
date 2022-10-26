@@ -62,3 +62,10 @@ form{
 }
 /* .input-general:focus-visible{
 } */
+
+.change-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
