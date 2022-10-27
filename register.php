@@ -52,16 +52,6 @@
                         $passwordhash = password_hash($password, PASSWORD_BCRYPT, $options);
                         $insert = $dbh->prepare('INSERT INTO user(email, pseudo, mdp) VALUES (:email, :pseudo, :mdp)');
                         $insert->execute(["email" => $email, "pseudo" => $pseudo, "mdp" => $passwordhash]);
-                        function genererChaineAleatoire($longueur = 10){
-                            $caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-                            $longueurMax = strlen($caracteres);
-                            $chaineAleatoire = '';
-                            for ($i = 0; $i < $longueur; $i++)
-                            {
-                            $chaineAleatoire .= $caracteres[rand(0, $longueurMax - 1)];
-                            }
-                            return $chaineAleatoire;
-                        }
                         $chaine = genererChaineAleatoire(45);
                         $recup_id = $dbh->prepare('SELECT id FROM user WHERE email = :email');
                         $recup_id->execute(['email' => $email]);

@@ -1,6 +1,6 @@
 <?php
-
-
+require "assets/includes/database.php";
+require "assets/includes/getIp.php";
 
 ?>
 <!DOCTYPE html>

@@ -9,12 +9,12 @@
                     <li><a class="<?= $jeu ?>" href="memory">Jeu</a></li>
                     <li><a class="<?= $score ?>" href="scores">Scores</a></li>
                     <li><a class="<?= $contact ?>" href="contact">Nous contacter</a></li>
+                    <li><a class="nav-link" href="<?= genererChaineAleatoire(10) ?>">Lien cassé</a></li>
                 </ul>
             </nav>
         </div>
         <div class="title">
             <h1><?= $e ?></h1>
-            <p></p>
         </div>
     </div>
 </header>

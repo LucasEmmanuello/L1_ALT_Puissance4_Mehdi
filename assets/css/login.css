@@ -16,7 +16,7 @@ form{
     color: #fff;
     border: none;
     outline: none;
-    width: 325px;
+    width: 400px;
     padding: 12.5px 10px 12.5px 10px;
     border-radius: 3.5px;
     margin-top: 15px;
@@ -54,7 +54,6 @@ form{
 
 .input-msg{
     height: 200px;
-    width: 500px;
 }
 
 .input-general::placeholder{
