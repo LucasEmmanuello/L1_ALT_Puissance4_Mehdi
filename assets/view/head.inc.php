@@ -9,16 +9,16 @@ $contact = "nav-link";
 
 if ($url == "/scores"){
     $e = "Scores";
-    $score = "nav-link position";
+    $score = "position";
 } else if ($url == "/"){
     $e = "Accueil";
-    $index = "nav-link position";
+    $index = "position";
 } else if ($url == "/memory"){
     $e = "Jeux";
-    $jeu = "nav-link position";
+    $jeu = "position";
 } else if ($url == "/contact"){
     $e = "Nous Contacter";
-    $contact = "nav-link position";
+    $contact = "position";
 } else if ($url == "/login"){
     $e = "Se Connecter";
 } else if ($url == "/register"){
@@ -35,5 +35,6 @@ if ($url == "/scores"){
 <link rel="stylesheet" href="../assets/css/normalize.css">
 <link rel="stylesheet" href="../assets/css/accueil.css">
 <link rel="stylesheet" href="../assets/css/login.css">
+<link rel="stylesheet" href="../assets/css/memory.css">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <title><?= $e ?></title>
