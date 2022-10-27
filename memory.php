@@ -26,10 +26,12 @@
     require_once "assets/view/header.inc.php";
     ?>
 
-    
+    <div class="game"></div>
 
     <?php
     require_once "assets/view/footer.inc.php";
     ?>
+
+    <script src="../JS/memory.js"></script>
 </body>
 </html>
