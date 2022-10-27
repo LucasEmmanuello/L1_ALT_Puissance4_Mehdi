@@ -26,6 +26,8 @@
     require_once "assets/view/header.inc.php";
     ?>
 
+    
+
     <?php
     require_once "assets/view/footer.inc.php";
     ?>
