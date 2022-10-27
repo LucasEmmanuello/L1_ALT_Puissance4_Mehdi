@@ -10,19 +10,21 @@ $contact = "nav-link";
 if ($url == "/scores"){
     $e = "Scores";
     $score = "nav-link position";
-}elseif ($url == "/"){
+} else if ($url == "/"){
     $e = "Accueil";
     $index = "nav-link position";
-}elseif ($url == "/memory"){
+} else if ($url == "/memory"){
     $e = "Jeux";
     $jeu = "nav-link position";
-}elseif ($url == "/contact"){
+} else if ($url == "/contact"){
     $e = "Nous Contacter";
     $contact = "nav-link position";
-}elseif ($url == "/login"){
+} else if ($url == "/login"){
     $e = "Se Connecter";
-}elseif ($url == "/register"){
+} else if ($url == "/register"){
     $e = "S'inscrire";
+} else {
+    $e = '<center>404</center> <br> Jamais quatre sans quatre';
 }
 
 ?>

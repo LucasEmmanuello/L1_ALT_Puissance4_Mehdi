@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+<?php
+require "assets/includes/database.php";
+require "assets/includes/getIp.php";
+?><!DOCTYPE html>
 <html lang="fr">
 <head>
     <?php require "assets/view/head.inc.php" ?>
 </head>
 <body>
     <?php
-    require_once "assets/view/header.inc.php";
+    require "assets/view/header.inc.php";
     ?>
     
     <div class="form-login">
@@ -20,7 +23,7 @@
     </div>
 
     <?php
-    require_once "assets/view/footer.inc.php";
+    require "assets/view/footer.inc.php";
     ?>
 </body>
 </html>
