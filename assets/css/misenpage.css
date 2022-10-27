@@ -28,6 +28,10 @@ body{
     padding-top: 5%;
 }
 
+#redirect{
+    margin: 20px;
+}
+
 .position{
     color: #EC9024;
     padding: 13px;
@@ -48,7 +52,6 @@ body{
 .nav-header > li{
     display: inline-block;
 }
-  
 
 .footer{
     display: flex;
