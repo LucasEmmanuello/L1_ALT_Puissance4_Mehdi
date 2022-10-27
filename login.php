@@ -54,7 +54,7 @@
             <ul>
                 <li><input type="email" name="email" id="email" class="input-general input-email" placeholder="Email"></li>
                     <li><input type="password" name="password" id="password" class="input-general input-password" placeholder="Mot de Passe"></li>
-                    <li>Vous n'avez pas de compte cliquez <a href="/register" style="color: #EC9024;">ICI</a></li>
+                    <li id="redirect">Vous n'avez pas de compte cliquez <a href="/register" style="color: #EC9024;">ICI</a></li>
                     <li class="submit-li"><input type="submit" value="Connexion" class="submit-input"></li>
             </ul>
         </form>

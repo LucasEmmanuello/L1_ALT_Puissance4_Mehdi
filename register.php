@@ -98,7 +98,7 @@
                     <li><input type="text" name="pseudo" id="pseudo" class="input-general input-pseudo" placeholder="Pseudo" required></li>
                     <li><input type="password" name="password" id="password" class="input-general input-password" placeholder="Mot de Passe" style="margin-bottom: 0;" required></li>
                     <li><input type="password" name="password_repeat" id="password_repeat" class="input-general input-password" placeholder="Répeter le Mot de Passe" required></li>
-                    <li>Vous avez déjà un compte cliquez <a href="/login" style="color: #EC9024;">ICI</a></li>                    <li class="submit-li"><input type="submit" value="S'inscrire" class="submit-input"></li>
+                    <li id="redirect">Vous avez déjà un compte cliquez <a href="/login" style="color: #EC9024;">ICI</a></li>                    <li class="submit-li"><input type="submit" value="S'inscrire" class="submit-input"></li>
             </ul>
         </form>
     </div>
