@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer> -->
     <div class="footer">
         <div class="info">
             <h4>Information</h4>
@@ -24,4 +24,4 @@
             </ul>
         </nav>
     </div>
-</footer>
+<!-- </footer> -->
