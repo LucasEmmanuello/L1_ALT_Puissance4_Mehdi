@@ -3,20 +3,30 @@ let emtn = 0
 let eprce = 0
 
 function flip(e){
+    console.log('bvuvb', eprce)
     emtn = e.getElementsByTagName('div')['1'].getElementsByTagName('img')['0']
-    if (eprce !== 0) {
-        console.log(eprce['style']['transform'])
-        eprce['style']['transform'] = "rotateY(0)"
-        console.log(eprce['style'])
+    if (eprce == 0) {
+        eprce = e
+    } else if (eprce.getElementsByTagName('div')['1'].getElementsByTagName('img')['0']['src'] !== emtn['src']) {
+        
+            eprce.setAttribute('style', 'transition: transorm ease-out .5s;transform: rotateY(0deg);')
+        setTimeout(() => {
+            e.setAttribute('style', 'transform: rotateY(0deg);')
+        }, 750)
+        eprce = 0
+        console.log(eprce)
+    } 
+    else {
+        eprce = 0
     }
 
     if (cartes['0']['return'] == 0) {
         cartes['0']['return'] = 1
-    } else if (cartes['0']['return'] == 1 && eprce['src'] !== emtn['src']) {
+    } else if (eprce !== "" && eprce !== e) {
         cartes['0']['return'] = 0
         setTimeout(() => {
-            e.style.transform = "rotateY(0)"
-            eprce.style.transform = "rotateY(0)"
+            // e.setAttribute('style', 'transform: rotateY(0deg);')
+            // eprce.setAttribute('class', 'face')
         }, 750)
     }
 
@@ -39,7 +49,7 @@ function flip(e){
             num = 0
         }
     }
-    eprce = e.getElementsByTagName('div')['1'].getElementsByTagName('img')['0']
+    
 
 }
 
@@ -57,7 +67,7 @@ function shuffleArray(array) {
     return array;
  }
 
-let images = shuffleArray(['potitemidas', 'potitectrll', 'potitelune', 'potitemercure', 'potiteplanetrose', 'potiteroot', 'potitestar', 'potitftm', 'potitjackal', 'potitjupiter', 'potitmars', 'potitneptune', 'potitnormandy', 'potitsoleil', 'potittrounoir', 'potituranus'])
+let images = shuffleArray(['potitemidas', 'potitelune', 'potitemercure', 'potiteplanetrose', 'potiteroot', 'potitestar', 'potitjackal', 'potitjupiter', 'potitmars', 'potitneptune', 'potitnormandy', 'potitsoleil', 'potittrounoir', 'potituranus'])
 let difficulty = 1
 let returne = 0
 let cartes = [
