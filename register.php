@@ -64,6 +64,7 @@
                             'test',
                             urlencode('http://localhost:8888/register?email=' . $email . '&verif=' . $chaine)
                         );
+                        header('Location: /login');
                     }else{
                         echo "votre compte existe déjà";
                     }
