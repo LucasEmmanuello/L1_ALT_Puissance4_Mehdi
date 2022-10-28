@@ -1,13 +1,23 @@
 let num = 0
+let emtn = 0
 let eprce = 0
 
 function flip(e){
-    console.log(eprce)
+    emtn = e.getElementsByTagName('div')['1'].getElementsByTagName('img')['0']
+    if (eprce !== 0) {
+        console.log(eprce['style']['transform'])
+        eprce['style']['transform'] = "rotateY(0)"
+        console.log(eprce['style'])
+    }
+
     if (cartes['0']['return'] == 0) {
         cartes['0']['return'] = 1
-    } else if (cartes['0']['return'] == 1 && cartes['0']['return'] !== cartes['1']['return']) {
+    } else if (cartes['0']['return'] == 1 && eprce['src'] !== emtn['src']) {
         cartes['0']['return'] = 0
-        setTimeout(() => {e.style.transform = "rotateY(0)"}, 750)
+        setTimeout(() => {
+            e.style.transform = "rotateY(0)"
+            eprce.style.transform = "rotateY(0)"
+        }, 750)
     }
 
     // console.log('ff', cartes['0']['return'])
@@ -29,7 +39,8 @@ function flip(e){
             num = 0
         }
     }
-    eprce = e.getElementsByTagName['1']
+    eprce = e.getElementsByTagName('div')['1'].getElementsByTagName('img')['0']
+
 }
 
 function shuffleArray(array) {
@@ -46,7 +57,7 @@ function shuffleArray(array) {
     return array;
  }
 
-let images = shuffleArray(['potitemidas', 'potitcasque', 'potitebmb', 'potitectrll', 'potitelune', 'potitemercure', 'potiteplanetrose', 'potiteroot', 'potitestar', 'potitftm', 'potitjackal', 'potitjupiter', 'potitmars', 'potitneptune', 'potitnormandy', 'potitsablier', 'potitsablier', 'potitsablier', 'potitsoleil', 'potittrounoir', 'potituranus', 'potitvaisseaugentil', 'potitvaisseaumechant'])
+let images = shuffleArray(['potitemidas', 'potitectrll', 'potitelune', 'potitemercure', 'potiteplanetrose', 'potiteroot', 'potitestar', 'potitftm', 'potitjackal', 'potitjupiter', 'potitmars', 'potitneptune', 'potitnormandy', 'potitsoleil', 'potittrounoir', 'potituranus'])
 let difficulty = 1
 let returne = 0
 let cartes = [
