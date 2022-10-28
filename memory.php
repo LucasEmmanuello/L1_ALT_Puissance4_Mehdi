@@ -35,7 +35,7 @@
             </table>
         </div>
 
-        <!-- <div class="tchat">
+        <div class="tchat">
             <div class="div-tchat">
                 <div class="header-tchat">
                     <h3>Chat</3>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>    
-        </div> -->
+        </div>
 
         <!-- <div> -->
             <?php
